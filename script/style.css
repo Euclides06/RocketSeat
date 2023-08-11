@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+header{
+    background: #F9F4FB;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.seta{
+    position: absolute;
+    bottom: 160px;
+    left: 180px;
+    top: 650px;
+}
+h1{
+    color: #B52184;
+    font-family: 'Mulish', sans-serif;
+    font-size: 6.0rem;
+   
+    
+}
+
+span{
+    font-size: 3.2rem;
+}
+p{
+    font-size: 1.8rem;
+    
+    
+   
+    
+}
+
+.paragrafos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:1440px;
+    height: 83.6rem;
+    
+   
+    
+    
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    height: 50.0rem;
+    gap: 2.0rem;
+    align-items: center;
+    
+
+    background: #343193;
+}
+
+h2{
+    color:#B52184 ;
+    font-size: 4.0rem;
+    display: flex;
+    row-gap: 3.0rem;
+    
+}
+
+.card1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 40px;
+    height: 410px;
+    width: 400px;
+    gap: 32px;
+    
+}
+
+.card2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 40px;
+    height: 410px;
+    width: 400px;
+    gap: 32px;
+}
+
+.card3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 40px;
+    height: 410px;
+    width: 400px;
+    gap: 32px;
+
+}
+
+.texto{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.imagem1{
+    display: flex;
+    width: 350px;
+    margin-top: 15px;
+}
+
+
+.imagem2{
+    display: flex;
+    width: 350px;
+    margin-top: 15px;
+}
+
+.imagem3{
+    display: flex;
+    width: 350px;
+    margin-top: 15px;
+    
+}
+
+form{
+    padding: 92px;
+    
+  
+}
+
+fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+fieldset legend{
+    color: #B52184;
+    font-family: 'Mulish', sans-serif;
+    font-size: 42px;
+    font-weight: 600px;
+    
+}
+
+.input1{
+    border-radius: 16px;
+    width: 600px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    padding: 0 10px;
+    
+}
+
+.input2{
+    border-radius: 16px;
+    width: 600px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    padding: 0 10px;
+}
+
+aside{
+    position: absolute;
+    right: 0;
+    bottom: -999px;
+}
+
+textarea{
+    border-radius: 16px;
+    width: 600px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    padding: 0 10px;
+    
+}
+
+.button input{
+    color: white;
+    background: #343193;
+    width: 151px;
+    height: 50px;
+    border-radius: 16px;
+    font-family: 'Mulish', sans-serif;
+    margin-top: 30px
+    
+    
+}
+
+.button :hover{
+    background: #070786;
+}
